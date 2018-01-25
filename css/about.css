@@ -1,0 +1,21 @@
+ /* ------- header styling start -------- */
+section{		
+	text-align: center;
+	background: #00a200;
+	background-size: cover;
+	margin: 10px;
+	padding: 0px;
+	clearfix;
+	font-family: Calibri;
+	font-size: 16px;
+	color: white;
+}
+
+.face-img{	
+	padding:10px;
+}
+
+img{
+	width:230px;
+	height:200px;
+}

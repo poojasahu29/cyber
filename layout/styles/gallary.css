@@ -1,0 +1,53 @@
+
+.img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}	
+.img .mask{
+	width: 100%;
+	
+	position: absolute;
+	height: 150px; 
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+}
+
+#img-2s .mask{
+	height:0%;	
+	margin-top:200px;
+}
+#img-3 #mask-1 {
+	width:50%;
+}
+#img-3 #mask-2{
+	width:50%;
+	margin-left:211px;
+}
+#img-3 #mask-1{
+	width:0%;
+}
+#img-3 #mask-2{
+	margin-left:430px;
+	width:0%;
+}
+#img-4 .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+}
+#img-5:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+}
+#img-6:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateZ(750deg);
+}

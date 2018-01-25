@@ -1,0 +1,42 @@
+/* ------- header styling start -------- */
+footer{			
+	min-height: 200px;
+	background: #000043;
+	background-size: cover;		
+	margin: 0px;
+	padding: 0px;
+	clearfix;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
+.lockup{
+	padding: 50px 30px;
+	float: left;	
+}
+
+.content-wrap{
+	float: left;
+	padding-left: 10px;
+	margin-left: 30px;	
+}
+
+
+.copyright{		
+	margin: 0px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: rgba(0,255,0,1);	
+	padding: 30px 0px 0px 20px;	
+}
+
+.fmenu a{	
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	color:#afc;
+	text-decoration: none;	
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+

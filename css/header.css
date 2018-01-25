@@ -1,0 +1,65 @@
+/* ------- header styling start -------- */
+header{	
+	height: 350px;
+	background: #000042;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	clearfix;
+}
+
+.hmenu a{
+	float: right;
+	margin: 20px 20px 0px 0px;
+	display: inline-block;
+	margin-left: 20px;
+	color:#afc;
+	text-decoration: none;	
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color:#fff;
+}
+
+header h1{	
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700px;
+	color:#eee;	
+	text-transform: uppercase;
+	letter-spacing: 0.05em;	
+	margin-bottom: 10px;
+	clear: both;
+	padding-top: 10px;
+}
+span{
+	display: inline-block;
+	padding: 0;
+	border: 1px solid rgba(0,250,150,0.5);
+	border-radius: 20px;	
+	box-shadow: 0px 10 20px 0 rgba(250,20,0,0.5);	
+	clearfix;	
+}
+
+span:hover{	
+	
+	border: 1px solid rgba(250,0,0,0);	
+	box-shadow: 0px 0 10px 0 rgba(0,250,100,5);
+	clearfix;	
+	-moz-text-transform: border:2s, box-shadow: 3s, background: 3s;
+}
+
+.kicker{
+	padding: 0px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700px;
+	color: #0fc;
+	text-transform: uppercase;	
+	letter-spacing: 0.5em;
+}
+#admin{
+
+}
